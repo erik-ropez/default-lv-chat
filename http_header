@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Language: ru
+Content-Type: text/html; charset=windows-1251
+Connection: close
+
+<script language=javascript>
+document.domain = 'default.lv';
+function java_init_base( uid, friends, st ) {parent.java_init_base( uid, friends, st );}
+function java_init( rooms, users, friend2, rid, topic ) {parent.java_init( rooms, users, friend2, rid, topic );}
+function java_init_mess( mess ) {parent.java_init_mess( mess );}
+function java_mess(mess, i_img_obj_id, i_img_id) {parent.java_mess(mess, i_img_obj_id, i_img_id);}
+function java_topic( topic ) {parent.java_topic( topic );}
+function java_adduser( uid, login, img, ring, sleep, level, riid, rialt ) {parent.java_adduser(uid, login, img, ring, sleep, level, riid, rialt);}
+function java_remuser( uid, level ) {parent.java_remuser( uid, level );}
+function java_chnuser1( uid, login, img, sleep, level ) {parent.java_chnuser1( uid, login, img, sleep, level );}
+function java_chnuser2( uid, ring, level ) {parent.java_chnuser2( uid, ring, level );}
+function java_addfriend( uid ) {parent.java_addfriend( uid );}
+function java_remfriend( uid ) {parent.java_remfriend( uid );}
+function java_room( rid, cnt ) {parent.java_room( rid, cnt );}
+function java_roomcaption( rid, caption ) {parent.java_roomcaption( rid, caption );}
+function java_addroom( rid, caption ) {parent.java_addroom( rid, caption );}
+function java_remroom( rid ) {parent.java_remroom( rid );}
+function java_filter(state) {parent.java_filter(state);}
+parent.document.all.status.innerHTML = 'Встречу места изменить нельзя!';
+parent.restart_when_onload = true;
+</script>

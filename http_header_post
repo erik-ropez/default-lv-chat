@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Language: ru
+Content-Type: text/html; charset=windows-1251
+Connection: close
+
+<script language=javascript>document.domain='default.lv';</script>
+<form method=post name=form_send action="/">
+<input type=hidden name=uid>
+<input type=hidden name=sendtag>
+<input type=hidden name=mess>
+</form>
